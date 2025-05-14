@@ -17,6 +17,31 @@
     <link rel="stylesheet" href="<?= $base_url; ?>assets/css/search.css">
     <link rel="stylesheet" href="<?= $base_url; ?>assets/css/base.css">
     <link rel="stylesheet" href="<?= $base_url; ?>assets/css/styles.css" >
+    <style>
+        .card-footer{
+            height: 150px;
+        }
+        .before{
+            position: absolute;
+            color: #000;
+            top: 50%;
+            background-color: #FFFFFF;
+            left: 0;
+            border-radius: 0 5px 5px 0;
+            padding: 2px 9px;
+            font-size: 14px;
+        }
+        .after{
+            position: absolute;
+            color: #000;
+            top: 50%;
+            background-color: #FFFFFF;
+            right: 0;
+            border-radius: 5px 0 0 5px;
+            padding: 2px 9px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
 
@@ -259,11 +284,282 @@
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
+
+        <!-- 7 Pillar
+        =============================================== -->
+        <section class="overflow-visible">
+            <div class="container">
+                <div class="section-heading">
+                    
+                    <h2 class="display-25 display-sm-20 display-md-20 display-xl-9 font-weight-600 mb-3">Seven pillars of life for  <span class="fw-bolder text-secondary">Good Health</span></h2>
+                    <p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">The Essential Foundations for a Healthier, Happier Life.</p>
+                </div>
+                <div class="row align-items-center mt-n1-6">
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/nutretion.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Nutrition</h3>
+                                <p class="mb-0 display-29">A proper, balanced nutrition will help fuel your daily activities and promote a lifetime of wellness.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/exercise.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Exercise</h3>
+                                <p class="mb-0 display-29">Through exercise, you burn calories. Exercise creates an energy deficit, and also improves lean muscle mass.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/water.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Water</h3>
+                                <p class="mb-0 display-29">The human body is 70% water, so it’s no surprise that we need to stay hydrated in order to remain healthy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/sleep.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Sleep</h3>
+                                <p class="mb-0 display-29">During sleep, your body is working to support healthy brain function and maintain your physical health.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center mt-5" style="display: flex; justify-content: center;">
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/healthy-socilisation.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Healthy Socialization</h3>
+                                <p class="mb-0 display-29">Socialization helps to improve our mental and emotional health,and physical well being.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/positive-mind.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Positive Mindset</h3>
+                                <p class="mb-0 display-29">Positive thinking just means that you approach unpleasantness in a more positive and productive way.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 mt-1-6">
+                        <div class="card card-style6 border-0">
+                            <div class="text-center">
+                                <img class="border-radius-10" src="<?= $base_url; ?>assets/img/coach.png" alt="...">
+                            </div>
+                            <div class="card-body py-5 position-relative">
+                                <div class="process-line"></div>
+                                <div class="process-dot"></div>
+                            </div>
+                            <div class="card-footer px-4 bg-transparent border-0 text-center">
+                                <h3 class="display-28 display-md-27">Wellness coach</h3>
+                                <p class="mb-0 display-29">A coach provides space and structure for the reflection that is necessary for learning and growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <!-- service left -->
+                    <div class="col-lg-8 mb-2-9 mb-lg-0">
+                        <div>
+                            <div class="row mb-2-2">
+                                <div class="col-lg-12">
+                                    <h3 class="mb-3">Nutrition Is Good For Everyone!</h3>
+                                    <p class="w-95 mb-1-9">Good for all men, women and children. Nutrition gives nurishment to body and calories gives energy to body....</p>
+                                    
+                                    <div class="row mt-n1-9 align-items-center">
+                                        <div class="col-xl-6 order-2 order-xl-1 mt-1-9">
+                                            <div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Nutrition makes you look better & feel better</h4>
+                                                        <p class="mb-0">Eat well to glow outside and feel great inside</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Boosts immunity</h4>
+                                                        <p class="mb-0">Strengthens your body’s natural defense.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Helps in healthy fat loss</h4>
+                                                        <p class="mb-0">Promotes natural and sustainable fat loss.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Strengthens bones & muscle</h4>
+                                                        <p class="mb-0">Keeps your body active and resilient.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 order-2 order-xl-1 mt-1-9">
+                                            <div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Creates balance between mental & physical health</h4>
+                                                        <p class="mb-0">Nurtures both mental peace and physical vitality</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Helps in overall well being</h4>
+                                                        <p class="mb-0">Promotes balance, energy, and vitality.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-1-9">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Improves digestion.</h4>
+                                                        <p class="mb-0">Helps your body process food efficiently.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0">
+                                                        <div class="about-icon">
+                                                            <img src="<?= $base_url; ?>assets/img/leafwhite.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1 ms-3">
+                                                        <h4 class="h5">Helps in weight management.</h4>
+                                                        <p class="mb-0">Promotes smart, sustainable weight goals.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- end service left -->
+
+                    <!-- service right -->
+                    <div class="col-lg-4">
+                        <div class="service-details-sidebar ps-lg-1-6">
+                            <aside class="widget widget-address">
+                            <img src="<?= $base_url; ?>assets/img/sir&mam.jpg" class="border-radius-10" alt="...">
+                            </aside>
+                        </div>
+                    </div>
+                    <!-- end service right -->
+
+                    
+                </div>
+            </div>
+        </section>
+
+
+                <!-- EXTRA
+        ================================================== -->
+        <section class="bg-img cover-background extra-section dark-overlay" data-overlay-dark="9" data-background="img/bg/bg-06.png">
+            <div class="container">
+                <div class="row justify-content-left">
+                    <div class="col-lg-6">
+                        <span class="title-font text-primary display-25 display-md-23 d-block mb-1">Healty Food, For Breakfast.</span>
+                        <h2 class="mb-sm-2-3 display-20 display-sm-15 display-xl-9 display-xxl-6 font-weight-600 text-white">The Decision Is Yours To Make You <span class="fw-bolder text-secondary">Healthy</span></h2> 
+                        <a href="contact.html" class="butn bg-primary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- ABOUT US
         ================================================== -->
-        <section class="bg-light">
+        <section>
             <div class="container">
                <div class="row align-items-center">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3">
@@ -330,7 +626,7 @@
         
         <!-- SERVICE
         ================================================== -->
-        <section>
+        <section class="bg-light">
             <div class="container">
                 <div class="section-heading">
                     <span class="title-font text-primary display-25 display-md-23 d-block mb-1">What we offer</span>
@@ -340,14 +636,20 @@
                 <div class="service-carousel owl-carousel owl-theme gx-xxl-5 mt-n10">
 
                     <div class="mt-10">
-                        <div class="card-style1">
-                            <img src="<?= $base_url; ?>assets/img/service-01.jpg" alt="..." class="border-top-radius-10">
+                        <div class="card-style1" style="display: flex;">
+                            <div class="before-img" style="width: 49%; margin-right: 1%; postion: relative;">
+                                <img src="<?= $base_url; ?>assets/img/before.jpeg" alt="..." class="border-top-radius-10" style="height: 250px; width: 100%;">
+                                <div class="before">Before</div>
+                            </div>
+                            <div class="after-img" style="width: 49%; margin-left: 1%; postion: relative;">
+                                <img src="<?= $base_url; ?>assets/img/after.jpeg" alt="..." class="border-top-radius-10" style="height: 250px; width: 100%;">
+                                <div class="after">After</div>
+                            </div>
                             <div class="card-body p-0">
                                 <div class="position-relative main-title overflow-hidden">
-                                    <h3 class="title"><a href="balance-body-mind.html">Balance Body & Mind</a></h3>
+                                    <h3 class="title"><a href="balance-body-mind.html">Rashmika 55kg to 65kg</a></h3>
                                 </div>
-                                <p class="text-white opacity9 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="balance-body-mind.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
+                                <p class="text-white opacity9 mb-0">Thanks to TasteYourBestLife, I gained 20 kg in a year with a healthy, sustainable plan. Truly life-changing!" – Amit</p>
                             </div>
                         </div>
                     </div>
@@ -360,7 +662,6 @@
                                     <h3 class="title"><a href="personalized-nutrition.html">Personalized Nutrition</a></h3>
                                 </div>
                                 <p class="text-white opacity9 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="personalized-nutrition.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -373,7 +674,6 @@
                                     <h3 class="title"><a href="fitness-performance.html">Fitness Performance</a></h3>
                                 </div>
                                 <p class="text-white opacity9 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="fitness-performance.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -386,7 +686,6 @@
                                     <h3 class="title"><a href="healthy-daily-life.html">Healthy Daily Life</a></h3>
                                 </div>
                                 <p class="text-white opacity7 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="healthy-daily-life.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -399,7 +698,6 @@
                                     <h3 class="title"><a href="support-motivation.html">Support & Motivation</a></h3>
                                 </div>
                                 <p class="text-white opacity7 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="support-motivation.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -412,7 +710,6 @@
                                     <h3 class="title"><a href="weight-loss-programs.html">Weight Loss Programs</a></h3>
                                 </div>
                                 <p class="text-white opacity7 mb-0">Our nutrition team love the benefits of exercise and healthy food.</p>
-                                <div class="card-btn-part"><a class="card-butn" href="weight-loss-programs.html">More Details <i class="ti-arrow-right align-middle ms-1"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -423,19 +720,7 @@
             <div class="bg-primary p-3 rounded-circle position-absolute bottom-10 left-5 ani-top-bottom d-none d-lg-block"></div>
         </section>
 
-        <!-- EXTRA
-        ================================================== -->
-        <section class="bg-img cover-background extra-section dark-overlay" data-overlay-dark="9" data-background="img/bg/bg-06.png">
-            <div class="container">
-                <div class="row justify-content-left">
-                    <div class="col-lg-6">
-                        <span class="title-font text-primary display-25 display-md-23 d-block mb-1">Healty Food, For Breakfast.</span>
-                        <h2 class="mb-sm-2-3 display-20 display-sm-15 display-xl-9 display-xxl-6 font-weight-600 text-white">The Decision Is Yours To Make You <span class="fw-bolder text-secondary">Healthy</span></h2> 
-                        <a href="contact.html" class="butn bg-primary">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- COUNTER
         ================================================== -->
@@ -490,94 +775,7 @@
             </div>
         </section>
 
-        <!-- PRICING
-        ================================================== -->
-        <section>
-            <div class="container">
-                <div class="section-heading">
-                    <span class="title-font text-primary display-25 display-md-23 d-block mb-1">Our plans</span>
-                    <h2 class="display-25 display-sm-20 display-md-20 display-xl-9 font-weight-600 mb-3">Pick Your Suitable<span class="fw-bolder text-secondary"> Offer</span></h2>
-                    <p class="mb-0 w-md-80 w-lg-70 w-xl-50 mx-auto">We connect buyers and sellers of natural, organic, environmentally sound products. We find the best suppliers and makers of natural and organic products.</p>
-                </div>
-                <div class="row g-xl-5 mt-n1-9">
-                    <div class="col-md-6 col-lg-4 mt-1-9">
-                        <div class="card card-style2 border-radius-10">
-                            <div class="card-header position-relative">
-                                <h3 class="mb-0 h4 text-white">Body Sculpting</h3>
-                                <div class="pricing-box">
-                                    <img src="<?= $base_url; ?>assets/img/icon-06.png" alt="...">
-                                </div>
-                            </div>
-                             <div class="d-flex align-items-start justify-content-center mt-3 mb-0">
-                                    <h4 class="display-5 mb-0 font-weight-600">59</h4>
-                                    <span class="align-self-end fw-bolder display-30 display-sm-28">$ / month</span>
-                                </div>
-                            <div class="card-body">
-                                <ul class="list-style1">
-                                    <li>Diet Recommendation</li>
-                                    <li>Motivation program</li>
-                                    <li>Weight Assessment</li>
-                                    <li>Nutrition Strategies</li>
-                                </ul>
-                                <div class="text-center">
-                                    <a class="butn secondary" href="contact.html">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9">
-                        <div class="card card-style2 border-radius-10">
-                            <div class="card-header bg-secondary">
-                                <h3 class="text-white mb-0 h4">Post Pregnancy</h3>
-                                <div class="pricing-box bg-primary">
-                                    <img src="<?= $base_url; ?>assets/img/icon-08.png" alt="...">
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-start justify-content-center mt-3 mb-0">
-                                    <h4 class="display-5 mb-0 font-weight-600">199</h4>
-                                    <span class="align-self-end fw-bolder display-30 display-sm-28">$ / month</span>
-                                </div>
-                            <div class="card-body">
-                                <ul class="list-style1">
-                                    <li>Diet Recommendation</li>
-                                    <li>Motivation program</li>
-                                    <li>Weight Assessment</li>
-                                    <li>Nutrition Strategies</li>
-                                </ul>
-                                <div class="text-center">
-                                    <a class="butn" href="contact.html">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9">
-                        <div class="card card-style2 border-radius-10">
-                            <div class="card-header">
-                                <h3 class="text-white mb-0 h4">Standard Plan</h3>
-                                <div class="pricing-box">
-                                    <img src="<?= $base_url; ?>assets/img/icon-07.png" alt="...">
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-start justify-content-center mt-3 mb-0">
-                                    <h4 class="display-5 mb-0 font-weight-600">99</h4>
-                                    <span class="align-self-end fw-bolder display-30 display-sm-28">$ / month</span>
-                                </div>
-                            <div class="card-body">
-                                <ul class="list-style1">
-                                    <li>Diet Recommendation</li>
-                                    <li>Motivation program</li>
-                                    <li>Weight Assessment</li>
-                                    <li>Nutrition Strategies</li>
-                                </ul>
-                                <div class="text-center">
-                                    <a class="butn secondary" href="contact.html">Choose Plan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         
         <!-- TESTIMONIAL
         ================================================== -->
@@ -704,46 +902,7 @@
             </div>
         </section> 
 
-         <!-- CLIENTS
-         ================================================== -->
-        <section class="p-1-9 p-md-5 bg-light">
-            <div class="container">
-                <div class="owl-carousel owl-theme client-style1 text-center">
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/01.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/01.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/02.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/02.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/03.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/03.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/04.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/04.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/05.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/05.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/06.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/06.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/07.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/07.png" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="<?= $base_url; ?>assets/img/08.png" alt="...">
-                        <img class="main-image" src="<?= $base_url; ?>assets/img/08.png" alt="...">
-                    </div>
-                </div>
-            </div>
-        </section>
+    
 
         <!-- FOOTER
         ================================================== -->
